@@ -1,3 +1,9 @@
+local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
+
+Module.Prompt({ invite = "https://discord.com/invite/3PWnew539M", name = "Gravity Hub" }) -- name is optional
+
+Module.Join("https://discord.com/invite/3PWnew539M")
+
 if game.PlaceId == 286090429 then
    loadstring(game:HttpGet('https://raw.githubusercontent.com/SpinnyMemer/Gravity-Hub/refs/heads/main/ArsenalNew.lua'))()
 elseif game.PlaceId == 17625359962 then
@@ -6,4 +12,4 @@ elseif game.PlaceId == 101435587895051 or 9441238005 or 17856909502 or 825592751
    loadstring(game:HttpGet('https://raw.githubusercontent.com/SpinnyMemer/Gravity-Hub/refs/heads/main/Aimblox.lua'))()
 else
    print("Game not supported :/")
-end   
+end
