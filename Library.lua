@@ -12,11 +12,11 @@ local GravityHub = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(25, 25, 25),
-			Second = Color3.fromRGB(32, 32, 32),
+			Main = Color3.fromRGB(15, 15, 15),
+			Second = Color3.fromRGB(25, 25, 25),
 			Stroke = Color3.fromRGB(60, 60, 60),
 			Divider = Color3.fromRGB(60, 60, 60),
-			Text = Color3.fromRGB(240, 240, 240),
+			Text = Color3.fromRGB(255, 255, 255),
 			TextDark = Color3.fromRGB(150, 150, 150)
 		}
 	},
@@ -556,7 +556,7 @@ function GravityHub:MakeWindow(WindowConfig)
 				Size = UDim2.new(0, 32, 0, 32),
 				Position = UDim2.new(0, 10, 0.5, 0)
 			}), {
-				SetProps(MakeElement("Image", "https://www.roblox.com/headshot-thumbnail/image?userId=".. LocalPlayer.UserId .."&width=420&height=420&format=png"), {
+				SetProps(MakeElement("Image", "rbxassetid://90989988011741"), {
 					Size = UDim2.new(1, 0, 1, 0)
 				}),
 				AddThemeObject(SetProps(MakeElement("Image", "rbxassetid://17828670117"), {
@@ -572,7 +572,7 @@ function GravityHub:MakeWindow(WindowConfig)
 				AddThemeObject(MakeElement("Stroke"), "Stroke"),
 				MakeElement("Corner", 1)
 			}),
-			AddThemeObject(SetProps(MakeElement("Label", ".gg/gyatt", WindowConfig.HidePremium and 14 or 13), {
+			AddThemeObject(SetProps(MakeElement("Label", ".gg/3PWnew539M", WindowConfig.HidePremium and 14 or 13), {
 				Size = UDim2.new(1, -60, 0, 13),
 				Position = WindowConfig.HidePremium and UDim2.new(0, 50, 0, 19) or UDim2.new(0, 50, 0, 12),
 				Font = Enum.Font.GothamBold,
@@ -601,7 +601,7 @@ function GravityHub:MakeWindow(WindowConfig)
 	local MainWindow = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame", Color3.fromRGB(255, 255, 255), 0, 10), {
 		Parent = Gravity,
 		Position = UDim2.new(0.5, -307, 0.5, -172),
-		Size = UDim2.new(0, 800, 0, 500),
+		Size = UDim2.new(0, 600, 0, 300),
 		ClipsDescendants = true
 	}), {
 		--SetProps(MakeElement("Image", "rbxassetid://3523728077"), {
