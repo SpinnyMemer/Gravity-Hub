@@ -573,13 +573,13 @@ function GravityHub:MakeWindow(WindowConfig)
 				MakeElement("Corner", 1)
 			}),
 			AddThemeObject(SetProps(MakeElement("Label", "discord.gg/3PWnew539M", WindowConfig.HidePremium and 14 or 13), {
-				Size = UDim2.new(1, -60, 0, 60),
+				Size = UDim2.new(1, -100, 0, 13),
 				Position = WindowConfig.HidePremium and UDim2.new(0, 10, 0, 19) or UDim2.new(0, 10, 0, 12),
 				Font = Enum.Font.GothamBold,
 				ClipsDescendants = true
 			}), "Text"),
 			AddThemeObject(SetProps(MakeElement("Label", "by spinnymemer", 12), {
-				Size = UDim2.new(1, -60, 0, 60),
+				Size = UDim2.new(1, -100, 0, 13),
 				Position = UDim2.new(0, 10, 1, -25),
 				Visible = true
 			}), "TextDark")
