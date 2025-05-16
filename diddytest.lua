@@ -557,10 +557,10 @@ function GravityHub:MakeWindow(WindowConfig)
 				Position = UDim2.new(0, 10, 0.5, 0)
 			}), {
 				SetProps(MakeElement("Image", "rbxassetid://76098537086295"), {
-					Size = UDim2.new(1, 0, 1, 0)
+					Size = UDim2.new(0, 0, 0, 0)
 				}),
 				AddThemeObject(SetProps(MakeElement("Image", "rbxassetid://76098537086295"), {
-					Size = UDim2.new(1, 0, 1, 0),
+					Size = UDim2.new(0, 0, 0, 0),
 				}), "Second"),
 				MakeElement("Corner", 1)
 			}), "Divider"),
@@ -601,7 +601,7 @@ function GravityHub:MakeWindow(WindowConfig)
 	local MainWindow = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame", Color3.fromRGB(255, 255, 255), 0, 10), {
 		Parent = Gravity,
 		Position = UDim2.new(0.5, -307, 0.5, -172),
-		Size = UDim2.new(0, 800, 0, 450),
+		Size = UDim2.new(0, 750, 0, 450),
 		ClipsDescendants = true
 	}), {
 		--SetProps(MakeElement("Image", "rbxassetid://3523728077"), {
