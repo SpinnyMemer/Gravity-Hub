@@ -479,8 +479,8 @@ function GravityHub:MakeWindow(WindowConfig)
 	WindowConfig.IntroText = WindowConfig.IntroText or "Gravity Hub"
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
 	WindowConfig.ShowIcon = WindowConfig.ShowIcon or false
-	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://76098537086295"
-	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://76098537086295"
+	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://137011894437569"
+	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://137011894437569"
 	GravityHub.Folder = WindowConfig.ConfigFolder
 	GravityHub.SaveCfg = WindowConfig.SaveConfig
 
@@ -553,13 +553,13 @@ function GravityHub:MakeWindow(WindowConfig)
 			}), "Stroke"), 
 			AddThemeObject(SetChildren(SetProps(MakeElement("Frame"), {
 				AnchorPoint = Vector2.new(0, 0.5),
-				Size = UDim2.new(0, 32, 0, 32),
-				Position = UDim2.new(0, 10, 0.5, 0)
+				Size = UDim2.new(0, 0, 0, 0),
+				Position = UDim2.new(0, 0, 0, 0)
 			}), {
-				SetProps(MakeElement("Image", "rbxassetid://76098537086295"), {
+				SetProps(MakeElement("Image", "rbxassetid://137011894437569"), {
 					Size = UDim2.new(0, 0, 0, 0)
 				}),
-				AddThemeObject(SetProps(MakeElement("Image", "rbxassetid://76098537086295"), {
+				AddThemeObject(SetProps(MakeElement("Image", "rbxassetid://137011894437569"), {
 					Size = UDim2.new(0, 0, 0, 0),
 				}), "Second"),
 				MakeElement("Corner", 1)
