@@ -29,7 +29,7 @@ local GravityHub = {
 local Icons = {}
 
 local Success, Response = pcall(function()
-	Icons = HttpService:JSONDecode(game:HttpGetAsync("https://raw.githubusercontent.com/evoincorp/lucideblox/master/src/modules/util/icons.json")).icons
+	Icons = loadWithTimeout('https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/refs/heads/main/icons.lua')
 end)
 
 if not Success then
