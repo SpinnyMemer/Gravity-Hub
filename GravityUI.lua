@@ -572,13 +572,13 @@ function GravityHub:MakeWindow(WindowConfig)
 				AddThemeObject(MakeElement("Stroke"), "Stroke"),
 				MakeElement("Corner", 1)
 			}),
-			AddThemeObject(SetProps(MakeElement("Label", "discord.gg/3PWnew539M", WindowConfig.HidePremium and 14 or 13), {
+			AddThemeObject(SetProps(MakeElement("Label", ".gg/3PWnew539M", WindowConfig.HidePremium and 14 or 13), {
 				Size = UDim2.new(1, 0, 0, 13),
 				Position = WindowConfig.HidePremium and UDim2.new(0, 10, 0, 19) or UDim2.new(0, 10, 0, 12),
 				Font = Enum.Font.GothamBold,
 				ClipsDescendants = true
 			}), "Text"),
-			AddThemeObject(SetProps(MakeElement("Label", "by spinnymemer", 12), {
+			AddThemeObject(SetProps(MakeElement("Label", "by infernix.", 12), {
 				Size = UDim2.new(1, 0, 0, 13),
 				Position = UDim2.new(0, 10, 1, -25),
 				Visible = true
@@ -601,7 +601,7 @@ function GravityHub:MakeWindow(WindowConfig)
 	local MainWindow = AddThemeObject(SetChildren(SetProps(MakeElement("RoundFrame", Color3.fromRGB(255, 255, 255), 0, 10), {
 		Parent = Gravity,
 		Position = UDim2.new(0.5, -307, 0.5, -172),
-		Size = UDim2.new(0, 700, 0, 400),
+		Size = UDim2.new(0, 675, 0, 375),
 		ClipsDescendants = true
 	}), {
 		--SetProps(MakeElement("Image", "rbxassetid://3523728077"), {
